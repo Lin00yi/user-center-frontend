@@ -39,7 +39,7 @@ const BaseView: React.FC = () => {
   };
 
   const handleFinish = async () => {
-    message.success('更新基本信息成功');
+    message.success('更新基本信息成功!');
   };
   if (loading) {
     return <div>Loading...</div>;
